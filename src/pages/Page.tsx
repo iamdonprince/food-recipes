@@ -56,7 +56,7 @@ const Page: React.FC = () => {
     (async () => {
       try {
         const res = await fetch(
-          `${proxy}https://recipesapi.herokuapp.com/api/v2/categories`
+          `https://recipesapi.herokuapp.com/api/v2/categories`
         );
         const data = await res.json();
         setRecipesCategory(data);
