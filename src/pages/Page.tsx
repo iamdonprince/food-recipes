@@ -40,7 +40,7 @@ const Page: React.FC = () => {
     }
 
     // @ts-ignore
-    ev.detail.register(-1, () => {
+    ev.detail.register(1, () => {
       if (!ionRouter.canGoBack()) {
         App.exitApp();
       }
