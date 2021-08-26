@@ -1,6 +1,6 @@
 {
-  "short_name": "Ionic App",
-  "name": "My Ionic App",
+  "short_name": "Food Recipes",
+  "name": "My Food Recipes",
   "icons": [
     {
       "src": "assets/icon/favicon.png",
