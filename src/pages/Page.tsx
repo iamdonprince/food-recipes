@@ -81,7 +81,7 @@ const Page: React.FC = () => {
       <IonContent fullscreen>
         <IonHeader collapse="condense">
           <IonToolbar>
-            <IonTitle size="large">{name}</IonTitle>
+            <IonTitle size="large">{name} prince</IonTitle>
           </IonToolbar>
         </IonHeader>
 
